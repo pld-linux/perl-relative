@@ -16,6 +16,7 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Source0:	http://search.cpan.org/CPAN/authors/id/S/SA/SAPER/%{pdir}-%{version}.tar.gz
 # Source0-md5:  923b48653599f2f7fcc7eba12db462ea
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
